@@ -14,7 +14,7 @@
   export let disabled = false;
   export let required = false;
   export let error = false;
-  export let value = "";
+  export let value: string | number = "";
   const dispatch = createEventDispatcher();
   const id = crypto.randomUUID();
 </script>
